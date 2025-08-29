@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
-  base: '/Apex_TTK-HIT_Curve/', // 设置为你的GitHub仓库路径
+  base: '/', // 设置为你的GitHub仓库路径
   plugins: [
     vue(),
     vueDevTools(),
